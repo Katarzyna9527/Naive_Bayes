@@ -19,14 +19,14 @@ for i in range(len(classes_values)):
 	dict_for_classes[i] = [x,y]
 	
 df = pd.Series(dict_for_classes)
-print(df)
+#print(df)
 
 
 names = list(csv.columns.values)
-print(names)
+#print(names)
 #probabilities = pd.DataFrame(columns = names[1:])
 probabilities  = pd.DataFrame()
-print(probabilities)
+#print(probabilities)
 
 #prawdopodobienstwa cech
 for i in range(1,len(csv.columns)): #iteracja po roznych cechach - kolumnach dataframe
